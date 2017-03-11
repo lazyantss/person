@@ -1,0 +1,47 @@
+body {background: url('../img/bg_login.jpg') no-repeat center center fixed; }
+header {overflow: hidden; height: 150px; text-align: center; }
+header .logo {display: block; width: 280px; margin: 0 auto; margin-top: 62px; }
+main {position: relative; width: 460px; margin: 0 auto; margin-bottom: 80px; z-index: 10; }
+label {vertical-align: middle; }
+a:hover {text-decoration: underline; }
+.window {position: relative; overflow: hidden; height: 500px; background-color: rgba(255, 255, 255, 0.8); border-radius: 20px; box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); }
+.window h3 {height: 40px; line-height: 40px; margin: 20px 0; text-align: center; font-size: 36px; font-weight: 100; color: #939393; }
+.viewtab {width: 100%; height: 40px; margin-bottom: 25px; }
+.viewtab button {width: 40px; height: 100%; margin-left: 210px; background: transparent url('../img/icon_login_40.png') no-repeat; border: none; outline: none; }
+.viewtab .login {background-position: 0 0; }
+.viewtab .login.act {background-position: 0 -40px; }
+.viewtab .login:hover, .viewtab .login:focus {background-position: 0 -40px; }
+.viewtab .register {margin-left: 145px; background-position: -40px 0; }
+.viewtab .register.act {background-position: -40px -40px; }
+.viewtab .register:hover, .viewtab .register:focus {background-position: -40px -40px; }
+.window .spview {position: relative; width: 920px; }
+.window form {display: block; width: 370px; padding: 0 45px; font-size: 16px; color: #939393; float: left; }
+.window form input, .window form select {width: 100%; height: 40px; margin-bottom: 20px; vertical-align: middle; padding: 0 15px; box-sizing: border-box; border: 1px solid #c4c2c3; border-radius: 20px; font-size: inherit; }
+.window form input:focus, .window form select:focus, .platform button:focus, .platform button:hover {outline: none; box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1); }
+.window form input[type=checkbox] {width: 20px; height: 20px; margin: 0; padding: 0; cursor: pointer; }
+.window .view {display: block; width: 370px; margin: 0 auto; font-size: 16px; color: #939393; }
+.window .captcha {float: right; overflow: hidden; width: 120px; height: 40px; border-radius: 20px; cursor: pointer; }
+.window .btn {background-color: #ffad00; border-color: #ffad00; color: #fff; font-size: 20px; }
+.window .btn:hover {background-color: #ffc732; border-color: #ffc732; }
+.window .btn:active {background-color: #d28600; border-color: #8d4c00; color: #222; box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1), inset 0 0 5px #8d4c00; }
+.window .bc2 {background-color: #79b1ec; border-color: #79b1ec; }
+.window .bc2:hover {background-color: #94ccff; border-color: #94ccff; }
+.window .bc2:active {background-color: #3978af; border-color: #004678; box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.1), inset 0 0 5px #004678; }
+.window hr {height: 1px; margin: 0; border: none; background-color: #c4c3c1; }
+.window .tips {width: 100%; padding: 0 45px; box-sizing: border-box; font-size: 14px; color: #aaa; }
+.platform {height: 40px; margin-top: 10px; }
+.platform button {width: 40px; height: 100%; margin-right: 20px; border: none; border-radius: 20px; outline: none; background-image: url('../img/icon_login_40.png'); }
+.platform .facebook {background-color: #32479a; background-position: 0 -80px; }
+.platform .googleplus {background-color: #ff5400; background-position: -40px -80px; }
+.other {color: #939393; font-size: 16px; line-height: 20px; margin-top: 20px; }
+.other a, label a {color: #b71f2e; }
+.text .tips {font-size: 18px; margin-top: 20px; color: #939393; }
+.rot {display: inline-block; width: 4px; height: 4px; vertical-align: middle; background-color: #FFAD00; border-radius: 50%; margin-right: 15px; }
+footer {position: fixed; bottom: 0; width: 100%; height: 60px; text-align: center; color: #fff; text-shadow: 0 1px 1px #444; z-index: 9; }
+
+.zcv {position: absolute; overflow: hidden; width: 120px; height: 221px; box-sizing: border-box; border: 1px solid #c4c2c3; border-radius: 20px; z-index: 11; background-color: rgba(255, 255, 255, 0.85); }
+.zcv div {text-indent: 10px; width: 100%; height: 100%; overflow: auto; overflow-x: hidden; }
+.zcv button {display: block; overflow: hidden; width: 100%; text-align: left; text-indent: 5px; background: none; font-size: 16px; color: #939393; height: 39px; line-height: 39px; border: none; border-bottom: 1px dotted #aeaeae; cursor: pointer; }
+.zcv button:last-child {height: 40px; border: none; }
+.zcv button:hover, .zcv button:focus {outline: none; background-color: rgba(121, 177, 236, 0.3); }
+.mask {position: absolute; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(255, 255, 255, 0.5); display: none; }
