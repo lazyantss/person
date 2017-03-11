@@ -1,5 +1,1 @@
-Git is a version control system
-Git is free software distributed under the GPL
-Git is a time
-Git tracks changes
-aaa
+Yii2集成的oauth2-server的用法。增加Predis和oauth2第三方来实现。
